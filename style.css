@@ -251,6 +251,13 @@
         gap: 100px;
     }
 
+
+    iframe {
+        max-width: 100%;
+        height: 300px;
+        display: block;
+    }
+
 }
 
 html {
@@ -542,6 +549,7 @@ img {
     height: auto;
     display: block;
 }
+
 
 .flexcontain {
     display: flex;
