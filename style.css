@@ -401,9 +401,8 @@ hr {
 }
 
 .page {
-    padding: 4em;
+    padding: 10px;
     text-align: center;
-    min-width: 500px;
 }
 
 .sprite-box {
