@@ -121,12 +121,6 @@
         max-width: 500px;
     }
 
-    img, iframe {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
     header nav ul li {
         list-style-type: none;
         display: inline-block;
@@ -514,6 +508,12 @@ hr {
     border-radius: 10px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 .flexcontain {
     display: flex;
     flex-wrap: wrap;
@@ -559,7 +559,6 @@ hr {
     border-radius: 20px;
     margin: 50px auto;
     background-color: white;
-    min-width: 500px;
     font-size: 25px;
     padding: 50px;
 }
