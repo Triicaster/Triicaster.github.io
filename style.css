@@ -121,6 +121,12 @@
         max-width: 500px;
     }
 
+    img, iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
     header nav ul li {
         list-style-type: none;
         display: inline-block;
