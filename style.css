@@ -231,6 +231,16 @@
     #interactive-img img {
         width: 400px;
     }
+
+    #game {
+        width: 100%;
+        max-width: 100vw;
+        height: 400px;
+    }
+
+    #scoretime {
+        gap: 100px;
+    }
 }
 
 html {
