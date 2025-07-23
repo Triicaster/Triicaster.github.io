@@ -119,6 +119,18 @@
         gap: 300px;
     }
 
+    .bordercontain h3 {
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 23px;
+    }
+
+    #logo {
+        width: 30vw;
+    }
+
 }
 
 @media (max-width: 1279px) {
@@ -168,6 +180,54 @@
 
     #scoretime {
         gap: 300px;
+    }
+
+    .bordercontain h3 {
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 23px;
+    }
+
+    #logo {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 1015px) {
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        z-index: 2;
+    }
+
+    .nav-menu {
+        padding: 0;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        left: -100%;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    nav {
+        background-color: rgb(28, 28, 28);
+        width: 100%;
+        z-index: 1;
+    }
+
+    button {
+        font-size: 20px;
+        margin: 10px;
     }
 }
 
@@ -258,6 +318,18 @@
         display: block;
     }
 
+    .bordercontain h3 {
+        font-size: 10vw;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #logo {
+        width: 60vw;
+    }
+
 }
 
 html {
@@ -302,7 +374,6 @@ body {
 #logo {
     position: relative;
     bottom: 0px;
-    width: 30vw;
     opacity: 1;
     animation-duration: 2s;
     animation-name: heartbeat;
@@ -387,9 +458,7 @@ section {
     margin: 0;
 }
 
-p {
-    font-size: 23px;
-}
+
 
 .hero {
     overflow: hidden;
@@ -573,10 +642,7 @@ img {
 }
 
 .bordercontain h3 {
-    font-size: 4vw;
-    margin: 0px;
     text-shadow: 5px 5px rgb(112, 222, 197);
-
 }
 
 .bordercontain h3:hover {
