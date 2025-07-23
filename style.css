@@ -110,6 +110,15 @@
         width: 40vw;
     }
 
+    #game {
+        width: 500px;
+        height: 400px;
+    }
+
+    #scoretime {
+        gap: 300px;
+    }
+
 }
 
 @media (max-width: 1279px) {
@@ -697,7 +706,6 @@ div ol li {
     align-items: center;
     justify-content: center;
     margin: 40px 0px 10px 0px;
-    gap: 300px;
 }
 
 .sprites {
