@@ -131,6 +131,9 @@
         width: 30vw;
     }
 
+    #heroheader {
+        font-size: 10vw;
+    }
 }
 
 @media (max-width: 1279px) {
@@ -193,6 +196,10 @@
     #logo {
         width: 40vw;
     }
+
+    #heroheader {
+        font-size: 10vw;
+    }
 }
 
 @media (max-width: 1015px) {
@@ -229,6 +236,11 @@
         font-size: 20px;
         margin: 10px;
     }
+
+    #heroheader {
+        font-size: 15vw;
+    }
+
 }
 
 @media (max-width: 846px) {
@@ -328,6 +340,10 @@
 
     #logo {
         width: 60vw;
+    }
+
+    #heroheader {
+        font-size: 20vw;
     }
 
 }
@@ -490,7 +506,6 @@ section {
     position: absolute;
     text-align: center;
     color: white;
-    font-size: 10vw;
     text-decoration: none;
     text-shadow: 5px 5px 10px rgb(101, 66, 0);
     z-index: 1;
