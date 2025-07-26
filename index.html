@@ -18,7 +18,7 @@
         </div>
         <nav>
             <ul class="nav-menu">
-                <li class="nav-item"><button id="1">About Chickens</button></li>
+                <li class="nav-item"><button id="btn1">About Chickens</button>
                 <li class="nav-item"><button id="2">Chicken Population</button></li>
                 <li class="nav-item"><button id="3">Chicken Facts</button></li>
                 <li class="nav-item"><button id="4">Let's Play!</button></li>
@@ -78,58 +78,45 @@
                 </div>
             </div>
             <div class="flexcontain">
-                <div class="bordercontain">
-                    <details>
-                        <summary>
-                            <h3>Red<br>Junglefowl</h3>
-                        </summary>
-                        <p class="text">The red junglefowl (Gallus gallus), also known as the Indian red junglefowl
-                            (and
-                            formerly the bankiva or bankiva-fowl), is a species of tropical, predominantly
-                            terrestrial
-                            bird in the fowl and pheasant family, Phasianidae, found across much of Southeast and
-                            parts
-                            of South Asia. <a href=https://en.wikipedia.org/wiki/Red_junglefowl
-                                target="_blank">[wikipedia]</a></p>
-                    </details>
-                    <div class="image2">
-                        <img src="images/pic6.jpeg" alt="pic6" title="rooster">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <h2>Red Junglefowl</h2>
+                            <img src="images/pic6.jpeg" alt="pic6" title="Red Junglefowl">
+                        </div>
+                        <div class="card-back">
+                            <p>The red junglefowl (Gallus gallus), also known as the Indian red junglefowl (and formerly
+                                the bankiva
+                                or bankiva-fowl), is a species of tropical, predominantly terrestrial bird in the fowl
+                                and pheasant
+                                family, Phasianidae, found across much of Southeast and parts of South Asia.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="bordercontain">
-                    <details>
-                        <summary>
-                            <h3>Black<br>Junglefowl</h3>
-                        </summary>
-                        <p class="text">The Black Junglefowl (Gallus sonneratii) is one of the wild ancestors of
-                            domestic
-                            chickens, native to the forests of southern India. It is known for its striking dark
-                            plumage, with males displaying glossy black feathers with purplish or green iridescence
-                            and
-                            unique yellow or white markings. <a href=https://en.wikipedia.org/wiki/Junglefowl
-                                target="_blank">[wikipedia]</a></p>
-                    </details>
-                    <div class="image2">
-                        <img src="images/pic5.jpeg" alt="pic5" title="hen">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <h2>Black Junglefowl</h2>
+                            <img src="images/pic5.jpeg" alt="pic5" title="Black Junglefowl">
+                        </div>
+                        <div class="card-back">
+                            <p>The Black Junglefowl is one of the wild ancestors of the domestic chicken. Although the
+                                Red Junglefowl had a greater role in domestication, genetic studies suggest the Black
+                                Junglefowl may have contributed to the modern chicken's gene pool.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="bordercontain">
-                    <details>
-                        <summary>
-                            <h3>Silkie<br>Chicken</h3>
-                        </summary>
-                        <p class="text">The Silkie, also known as the Silky or Chinese silk chicken, is a Chinese
-                            breed
-                            of
-                            chicken named for its atypically fluffy plumage, which is soft to the touch, like silk
-                            or
-                            fur. Other unusual qualities include black skin and bones, blue earlobes, and
-                            pentadactyly
-                            (five toes on each foot). <a href=https://en.wikipedia.org/wiki/Silkie
-                                target="_blank">[wikipedia]</a></p>
-                    </details>
-                    <div class="image2">
-                        <img src="images/pic4.jpeg" alt="pic4" title="Silkie">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <h2>Silkie Chicken</h2>
+                            <img src="images/pic4.jpeg" alt="pic4" title="Silkie Chicken">
+                        </div>
+                        <div class="card-back">
+                            <p>The Silkie is one of the most unique and beloved chicken breeds in the world, known for
+                                its fluffy plumage that feels like silk or satin. This breed likely originated in China
+                                and has been admired for centuries for its gentle temperament and unusual features.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -174,7 +161,7 @@
             <div class="form">
                 <h2>Quiz Time!!!</h2>
                 <p>Let's see if you know chicken...</p>
-                <div class="form-container">
+                <form class="form-container">
                     <p class="question"><u>1. What is another name for "Gallus Gallus"?</u></p>
                     <label><input type="radio" name="a1" value="Red Junglefowl">Red Junglefowl</label>
                     <label><input type="radio" name="a1" value="Sultan Chicken">Sultan Chicken</label>
@@ -199,7 +186,7 @@
                     <label><input type="radio" name="a4" value="IDK">IDK</label>
                     <label><input type="radio" name="a4" value="Yes!">Yes!</label>
 
-                </div>
+                </form>
                 <button id="submitbtn">Submit</button>
                 <p id="scorebox">Your score goes here!</p>
             </div>
@@ -387,4 +374,5 @@
         <p>&#174; Mavelle's page about Chickens!</p>
     </footer>
 </body>
+
 </html>
