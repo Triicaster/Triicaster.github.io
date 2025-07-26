@@ -28,9 +28,11 @@ const fullscreenbtn = document.querySelector("#fullscreen-btn");
 function togglefullscreen(){
     if (!document.fullscreenElement) {
         document.documentElement.requestFullscreen();
+        fullscreenbtn.innerHTML = ("Exit Fullscreen");
     }
     else {
         document.exitFullscreen();
+        fullscreenbtn.innerHTML = ("Fullscreen mode");
     }
 }
 
