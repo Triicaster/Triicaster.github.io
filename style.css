@@ -504,6 +504,23 @@ footer {
     height: 130px;
 }
 
+.hamburger span {
+    transition: all 0.3s ease-in-out;
+}
+.hamburger.active span:nth-child(1) {
+    top: 50%;
+    transform: translate( 0%, 270%) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    top: 50%;
+    transform: translate( 0%, -270%) rotate(-45deg);
+}
+
 #chevron {
     background-color: rgb(0, 0, 0);
     position: fixed;
@@ -559,15 +576,6 @@ button:hover {
     border-radius: 30%;
 }
 
-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-}
-
-
-
 .hero {
     overflow: hidden;
     display: flex;
@@ -606,10 +614,6 @@ section {
 #heroheader:hover {
     color: grey;
     text-shadow: 5px 5px 10px rgb(0, 0, 0);
-}
-
-hr {
-    border: 3px solid black;
 }
 
 .page {
@@ -657,6 +661,7 @@ hr {
     width: 350px;
     height: 450px;
     perspective: 1000px;
+    cursor: pointer;
 }
 
 .card-inner {
@@ -682,7 +687,7 @@ hr {
     height: 100%;
     padding: 20px;
     backface-visibility: hidden;
-    background: linear-gradient(wheat, rgb(238, 178, 126));
+    background: linear-gradient(wheat, rgb(255, 174, 174));
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -702,12 +707,7 @@ hr {
     font-size: 20px;
     margin: 0;
     padding: 20px;
-}
-
-#nextbtn {
-    background-color: grey;
-    color: white;
-    width: 20%;
+    text-shadow: 2px 2px aquamarine;
 }
 
 #page1 {
@@ -769,7 +769,6 @@ img {
     display: block;
 }
 
-
 .flexcontain {
     display: flex;
     flex-wrap: wrap;
@@ -800,22 +799,7 @@ img {
     color: black;
 }
 
-/* Image content */
-.image2 img {
-    border-radius: 10px;
-    max-width: 100%;
-    height: auto;
-    display: block;
-
-}
-
-.image2 img:hover {
-    animation-duration: 1s;
-    animation-name: spin;
-}
-
 div ol li {
-    color: rgb(56, 0, 56);
     text-shadow: 2px 2px rgb(255, 255, 255);
     font-size: 25px;
     text-align: left;
@@ -922,17 +906,13 @@ div ol li {
     margin: 40px 0px 10px 0px;
 }
 
-.sprites {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 100px;
-}
-
 .adult {
+    position: absolute;
     background: url('images/chicken_sprite_sheet.png') no-repeat -60px -8px;
     width: 30px;
     height: 34px;
+    transition: left 1s;
+    top: 212px;
 }
 
 footer {
