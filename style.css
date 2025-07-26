@@ -727,7 +727,7 @@ button:hover {
     text-shadow: 2px 2px aquamarine;
 }
 
-.imagetwo {
+.imagetwo:hover {
     animation: spin 1s;
 }
 
