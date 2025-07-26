@@ -153,6 +153,7 @@
     .form-container {
         font-size: 25px;
         width: 50%;
+    padding: 30px;
     }
 
 }
@@ -240,6 +241,8 @@
     .form-container {
         width: 600px;
         font-size: 20px;
+    padding: 30px;
+        
     }
     
     .form-container p {
@@ -304,6 +307,8 @@
     .form-container {
         width: 500px;
         height: 500px;
+    padding: 10px;
+        
     }
 }
 
@@ -428,11 +433,11 @@
     .form-container {
         width: 90%;
         height: 500px;
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .form-container p{
-        font-size: 20px;
+        font-size: 23px;
     }
 
 }
@@ -778,7 +783,6 @@ img {
     border-radius: 20px;
     margin: 50px auto;
     background-color: white;
-    padding: 30px;
     min-width: 440px;
 }
 
