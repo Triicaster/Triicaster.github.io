@@ -428,11 +428,11 @@
     .form-container {
         width: 90%;
         height: 500px;
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .form-container p{
-        font-size: 23px;
+        font-size: 18px;
     }
 
 }
@@ -779,7 +779,6 @@ img {
     margin: 50px auto;
     background-color: white;
     padding: 50px;
-    min-width: 440px;
 }
 
 .form-container input {
