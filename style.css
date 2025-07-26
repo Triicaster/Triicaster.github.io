@@ -727,6 +727,10 @@ button:hover {
     text-shadow: 2px 2px aquamarine;
 }
 
+.imagetwo {
+    animation: spin 1s;
+}
+
 #page1 {
     background-image: url(./images/background_img1.png);
     background-color: rgb(236, 217, 217);
