@@ -86,6 +86,7 @@
     button {
         font-size: 29px;
         margin: 20px;
+        width: 210px;
     }
 
     /* chicken button*/
@@ -177,8 +178,9 @@
     }
 
     button {
-        font-size: 29px;
+        font-size: 27px;
         margin: 20px;
+        width: 196px;
     }
 
     #imgbtn1 {
@@ -558,7 +560,6 @@ button {
     border: none;
     padding: 10px;
     cursor: pointer;
-    width: 210px;
     border-radius: 10px;
     transition: color 1s, background 1s, width 0.5s;
 }
@@ -566,7 +567,7 @@ button {
 button:hover {
     color: rgb(239, 0, 64);
     background-color: grey;
-    width: 300px;
+    width: 250px;
 }
 
 .audio-btns {
