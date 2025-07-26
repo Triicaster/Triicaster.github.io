@@ -241,7 +241,7 @@
     .form-container {
         width: 600px;
         font-size: 20px;
-    padding: 30px;
+        padding: 30px;
         
     }
     
@@ -431,14 +431,14 @@
     }
 
     .form-container {
-        width: 400px;
+        width: 380px;
         height: 500px;
         font-size: 16px;
-        padding: 44px;
+        padding: 10px;
     }
 
     .form-container p{
-        font-size: 23px;
+        font-size: 18px;
     }
 
 }
