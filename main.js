@@ -87,6 +87,7 @@ hamburger.addEventListener("click", function () {
 const card = document.querySelectorAll(".card").forEach(card => {
     card.addEventListener("click", function () {
         card.classList.toggle("active");
+        popsound.play();
     })
 });
 
