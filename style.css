@@ -434,11 +434,10 @@
         width: 380px;
         height: 500px;
         font-size: 16px;
-        padding: 10px;
     }
 
     .form-container p{
-        font-size: 18px;
+        font-size: 10px;
     }
 
 }
