@@ -80,17 +80,18 @@ const hamburger = document.querySelector(".hamburger");
 const navbtns = document.querySelector(".nav-menu");
 hamburger.addEventListener("click", function () {
     navbtns.classList.toggle("active");
+    hamburger.classList.toggle("active");
 });
 
 //Cards
 
-const card = document.querySelectorAll(".card").forEach(card => {
-    card.addEventListener("click", function () {
+const cards = document.querySelectorAll(".card");
+cards.forEach(function(card){
+    card.addEventListener("click", function(){
         card.classList.toggle("active");
         popsound.play();
-    })
+    });
 });
-
 
 //quiz
 const submitbtn = document.querySelector("#submitbtn");
@@ -307,4 +308,3 @@ startbutton.addEventListener("click", function () {
     block.classList.add("active");
     hole.classList.add("active");
 });
-
