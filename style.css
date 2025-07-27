@@ -516,6 +516,12 @@ body {
     animation-name: heartbeat;
 }
 
+#qr {
+    margin-top: 100px;
+    display:flex;
+    justify-content:center;
+}
+
 header,
 footer {
     position: relative;
