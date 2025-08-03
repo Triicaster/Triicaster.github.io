@@ -22,7 +22,6 @@ setInterval(function () {
 
 //Fullscreen mode
 
-const mydocument = document.documentElement;
 const fullscreenbtn = document.querySelector("#fullscreen-btn");
 
 function togglefullscreen() {
@@ -200,8 +199,8 @@ function moveSprite() {
             sprite.classList.add("animate");
             setTimeout(function () {
                 sprite.classList.remove("animate");
-            }, 1000)
-        })
+            }, 1000);
+        });
     });
 }
 
@@ -359,15 +358,15 @@ function increaseprogress() {
         progressbar.style.width = progress + "%";
     }
     increasepage();
-};
+}
 
 function decreaseprogress() {
     if (progress != 0) {
         progress = progress - 20;
         progressbar.style.width = progress + "%";
     }
-    decreasepage()
-};
+    decreasepage();
+}
 
 
 var allinfo = document.querySelectorAll(".info");
@@ -399,3 +398,4 @@ function decreasepage() {
 
 nextbtn.addEventListener("click", increaseprogress);
 backbtn.addEventListener("click", decreaseprogress);
+
