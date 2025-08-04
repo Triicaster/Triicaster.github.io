@@ -150,7 +150,7 @@ var imgtext = document.querySelector("#interactive p");
 const imgbtn1 = document.querySelector("#imgbtn1");
 const imgbtn2 = document.querySelector("#imgbtn2");
 const imgbtn3 = document.querySelector("#imgbtn3");
-const popsound = new Audio("Audio/popsound.mp3");
+const popsound = new Audio("audio/popsound.mp3");
 
 //change color, h2 and p in html website, and play pop
 imgbtn1.addEventListener("click", function () {
@@ -174,7 +174,7 @@ imgbtn3.addEventListener("click", function () {
 
 //spawn chicken
 const container = document.querySelector(".sprite-box"); //get sprite box
-const boingsound = new Audio("Audio/boing_sound.mp3");
+const boingsound = new Audio("audio/boing_sound.mp3");
 function getrandom(min, max) {
     return Math.round(Math.random() * (max - min)) + min; //get random number
 }
@@ -249,10 +249,10 @@ const audio1 = document.querySelector("#audiobtn1");
 const audio2 = document.querySelector("#audiobtn2");
 const audio3 = document.querySelector("#audiobtn3");
 const audio4 = document.querySelector("#audiobtn4");
-const hencluck = new Audio("Audio/hen_cluck.mp3");
-const chickchurp = new Audio("Audio/chick_sound.mp3");
-const angrycluck = new Audio("Audio/angry_hen_noise.mp3");
-const roostercall = new Audio("Audio/rooster_cry.mp3");
+const hencluck = new Audio("audio/hen_cluck.mp3");
+const chickchurp = new Audio("audio/chick_sound.mp3");
+const angrycluck = new Audio("audio/angry_hen_noise.mp3");
+const roostercall = new Audio("audio/rooster_cry.mp3");
 
 audio1.addEventListener("click", function () {
     hencluck.play();
@@ -275,7 +275,7 @@ const block = document.querySelector("#block");
 const hole = document.querySelector("#hole");
 const showscore = document.querySelector("#showscore");
 const showtime = document.querySelector("#showtime");
-const jumpsound = new Audio("Audio/jump_sound.mp3");
+const jumpsound = new Audio("audio/jump_sound.mp3");
 const startbutton = document.querySelector("#startbtn");
 const header = document.querySelector("#lets-play");
 const resetgame = document.querySelector("#reset-game");
@@ -434,4 +434,5 @@ checkbtn.addEventListener("click", function () {
     speedtwo.style.width = "200px";
     speedthree.style.width = "100px";
     howfast.innerHTML = "Chickens can run 15KM/HR. Slower than human, 45KM/HR, and Cheetah, 80KM/HR.";
+
 });
