@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chickens</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="images/chick_favicon.jpg">
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+
+<body id="top">
+    <header id="header">
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav>
+            <!-- Navigation buttons to be used in javascript for page navigation -->
+            <ul class="nav-menu">
+                <li class="nav-item"><button id="btn1">About Chickens</button></li>
+                <li class="nav-item"><button id="btn2">Chicken Population</button></li>
+                <li class="nav-item"><button id="btn3">Chicken Facts</button></li>
+                <li class="nav-item"><button id="btn4">Let's Play!</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <button id="chevron">To Top</button>
+        </div>
+        <div class="splash" style="display: flex;">
+            <img src="images/chicken_logo.png" id="logo" alt="logo">
+        </div>
+        <section class="hero">
+            <h1 id="heroheader">Chickens!</h1>
+            <button id="fullscreen-btn">Fullscreen mode</button>
+            <div class="background-pic">
+                <img src="images/chick_pic_1.jpeg" class="chickpic" alt="bgn-img">
+            </div>
+        </section>
+        <div class="page" id="page1">
+            <h2>All about chickens!</h2>
+            <div class="container">
+                <div class="text">
+                    <h3 class="intro">What are these?</h3>
+                    <p>I'm sure you know what a chicken is—it's a common farm bird kept for its eggs and meat. Hens
+                        lay
+                        eggs, roosters crow, and they all love scratching the ground for food. Chickens live in
+                        groups,
+                        follow a pecking order, and make all sorts of clucking sounds to communicate. They're
+                        simple,
+                        social, and surprisingly smart! But have you ever taken a deeper dive into learning more
+                        about
+                        them?</p>
+                </div>
+                <div class="image">
+                    <img src="images/pic1.jpg" alt="img1" title="hen resting" id="pic">
+                </div>
+            </div>
+            <div class="container">
+                <div class="image">
+                    <iframe width="450" height="315" src="https://www.youtube.com/embed/DoGmfABZ7sg?si=A-0E9I1GBPFo_d9J"
+                        title="YouTube video player" allowfullscreen></iframe>
+                </div>
+                <div class="text">
+                    <h3 class="intro">Characteristics</h3>
+                    <p>This is a rooster — the male chicken known for its vibrant feathers and loud crowing.
+                        Roosters
+                        are often larger and more colorful than hens, with striking tail feathers and a prominent
+                        comb
+                        on their heads. They play an important role in protecting the flock, warning hens of danger,
+                        and
+                        establishing the pecking order through their behavior. Their crowing can be heard early in
+                        the
+                        morning, signaling the start of a new day.</p>
+                </div>
+            </div>
+            <div class="flexcontain">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <h2>Red Junglefowl</h2>
+                            <img src="images/pic6.jpeg" alt="pic6" title="Red Junglefowl" class="imagetwo">
+                        </div>
+                        <div class="card-back">
+                            <p>The red junglefowl (Gallus gallus), also known as the Indian red junglefowl (and formerly
+                                the bankiva
+                                or bankiva-fowl), is a species of tropical, predominantly terrestrial bird in the fowl
+                                and pheasant
+                                family, Phasianidae, found across much of Southeast and parts of South Asia.</p>
+                            <a href="https://en.wikipedia.org/wiki/Red_junglefowl" target="_blank">[wikipedia]</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <h2>Black Junglefowl</h2>
+                            <img src="images/pic5.jpeg" alt="pic5" title="Black Junglefowl" class="imagetwo">
+                        </div>
+                        <div class="card-back">
+                            <p>The Black Junglefowl is one of the wild ancestors of the domestic chicken. Although the
+                                Red Junglefowl had a greater role in domestication, genetic studies suggest the Black
+                                Junglefowl may have contributed to the modern chicken's gene pool.</p>
+                            <a href="https://en.wikipedia.org/wiki/Junglefowl" target="_blank">[wikipedia]</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <h2>Silkie Chicken</h2>
+                            <img src="images/pic4.jpeg" alt="pic4" title="Silkie Chicken" class="imagetwo">
+                        </div>
+                        <div class="card-back">
+                            <p>The Silkie is one of the most unique and beloved chicken breeds in the world, known for
+                                its fluffy plumage that feels like silk or satin. This breed likely originated in China
+                                and has been admired for centuries for its gentle temperament and unusual features.</p>
+                            <a href="https://en.wikipedia.org/wiki/Silkie" target="_blank">[wikipedia]</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="text">
+                    <h3 class="intro"><u>Chicken species.. So many!</u></h3>
+                    <p>
+                        There are in fact <b>a ton</b> of chicken species! Some examples of unique breeds include
+                        the
+                        <a href="https://en.wikipedia.org/wiki/Sultan_chicken" target="_blank"><u>Sultan
+                                Chicken</u></a>, a popular
+                        Turkish breed known for its elegant appearance, <a
+                            href="https://en.wikipedia.org/wiki/Brahma_chicken" target="_blank"><u>Brahma
+                                chickens</u></a>
+                        , which are widely recognized for their large size and gentle nature, and
+                        the <a href="https://en.wikipedia.org/wiki/Faverolles_chicken" target="_blank"><u>Faverolles
+                                chicken</u></a>, which is an excellent egg layer.
+                        However, these chickens are considered <b>rare</b>. They are native to specific countries
+                        and are often kept as pets rather than for farming, as some breeds are not very hardy and
+                        may fall sick or die easily without proper care.
+                    </p>
+                </div>
+                <div class="container">
+                    <div class="text">
+                        <h3 class="intro">Can I eat!?</h3>
+                        <p>Blatantly—yes. You can eat chicken! One of Singapore's signature dishes is Hainanese
+                            Chicken Rice, and it's enjoyed by people all over the world! It's a well-known and
+                            beloved delicacy.
+                            On another note, we usually eat hens, not roosters. Why? Because rooster meat tends to
+                            be tough and chewy. Roosters develop stronger muscles as they use them to fight for
+                            territory and dominance. That makes their meat harder to cook and bite through.
+                            But still, roosters aren't completely left out—they're often used in traditional Chinese
+                            dishes like herbal chicken soup, rich chicken broth… and hey, maybe even chicken
+                            nuggets. Quite yummy, honestly. But see... chicken on the right seems scared already!
+                        </p>
+                    </div>
+                    <div class="image">
+                        <img src="images/pic7.jpeg" alt="pic7" title="hen uh-oh">
+                    </div>
+                </div>
+            </div>
+            <!-- progress bar and info section -->
+            <div class="history">
+                <h2>Different Kinds of chicken based foods!</h2>
+                <p>So many different kinds to discover and choose from...</p>
+                <div class="info" id="info1" style="display: flex;">
+                    <h2>Chicken Rice</h2>
+                    <img src="images/chicken_rice.jpg" alt="chicken_rice">
+                    <p>Hainanese chicken rice is a dish of <u>poached chicken and seasoned rice,</u> served with chilli
+                        sauce
+                        and usually with cucumber garnishes. It was <b>created by immigrants from Hainan</b> in southern
+                        China and adapted from the <u>Hainanese dishes of Wenchang chicken</u> and Wenchang chicken
+                        rice.</p>
+                </div>
+                <div class="info" id="info2" style="display: none;">
+                    <h2>Chicken Broth</h2>
+                    <img src="images/chicken_broth.jpeg" alt="chicken_broth">
+                    <p>Chicken broth is a soup made from chicken, simmered in water, usually with various other
+                        ingredients. The classic chicken soup <b>consists of a clear chicken broth,</b> often with
+                        pieces of
+                        chicken or vegetables; common additions are <u>pasta, noodles, dumplings, carrots, potatoes, or
+                            grains such as rice and barley.</u> Chicken soup is commonly considered a comfort food.</p>
+                </div>
+                <div class="info" id="info3" style="display: none;">
+                    <h2>Chicken Essence</h2>
+                    <img src="images/chicken_essence.jpg" alt="chicken_broth">
+                    <p>Chicken essence is a <u>liquid nutritional supplement</u> made using selected extracts from
+                        high-quality
+                        chicken. Heat and pressure are <u>applied to break down naturally occurring proteins</u> in the
+                        chicken
+                        broth into <b>smaller, more easily digested peptides.</b></p>
+                </div>
+                <div class="info" id="info4" style="display: none;">
+                    <h2>Roast Chicken</h2>
+                    <img src="images/roasted_chicken.jpg" alt="chicken_roast">
+                    <p>Roast chicken is chicken prepared as food by <u>roasting whether in a home kitchen,</u> over a
+                        fire, or
+                        with a rotisserie. Generally, the chicken is roasted with its own fat and juices
+                        by <b>circulating the meat during roasting,</b> and therefore, are usually <u>cooked exposed to
+                            fire</u> or
+                        heat with <u>some type of rotary grill.</u></p>
+                </div>
+                <div class="info" id="info5" style="display: none;">
+                    <h2>Fried Chicken</h2>
+                    <img src="images/fried_chicken.jpg" alt="fried_chicken">
+                    <p>Fried chicken, also called Southern fried chicken, is a <u>dish consisting of chicken pieces</u>
+                        that
+                        have been <b>coated with seasoned flour or batter and pan-fried,</b> deep fried, pressure fried,
+                        or air
+                        fried.</p>
+                </div>
+                <div class="info" id="info6" style="display: none;">
+                    <h2>Chicken Satay</h2>
+                    <img src="images/chicken_satay.jpg" alt="satay_chicken">
+                    <p>Chicken satay is often served with <b>peanut sauce and kecap manis</b> - a sweet soy sauce, and
+                        is
+                        often accompanied with ketupat or lontong, <u>a type of rice cake</u>, though the diversity of
+                        the
+                        country has produced a <u>wide variety of satay recipes</u>. It is also <b>popular</b> in many
+                        other Southeast
+                        Asian countries</p>
+                </div>
+                <div class="pbar">
+                    <div class="progress-bar"></div>
+                </div>
+                <div class="btn-div">
+                    <button id="decrease-btn">Back</button>
+                    <button id="increase-btn">Next</button>
+                </div>
+            </div>
+            <section>
+                <div class="form">
+                    <h2>Quiz Time!!!</h2>
+                    <p>Let's see if you know chicken...</p>
+                    <!-- form -->
+                    <form class="form-container">
+                        <fieldset>
+                            <legend class="question"><u>1. What is another name for "Gallus Gallus"?</u></legend>
+                            <label><input type="radio" name="a1" value="Red Junglefowl">Red Junglefowl</label>
+                            <label><input type="radio" name="a1" value="Sultan Chicken">Sultan Chicken</label>
+                            <label><input type="radio" name="a1" value="Dog">Dog</label>
+                            <label><input type="radio" name="a1" value="Silkie Chicken">Silkie Chicken</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend class="question"><u>2. Chickens are as smart as...</u></legend>
+                            <label><input type="radio" name="a2" value="A Human Baby">A Human Baby</label>
+                            <label><input type="radio" name="a2" value="An Adult">An Adult</label>
+                            <label><input type="radio" name="a2" value="A Dog or Cat">A Dog or Cat</label>
+                            <label><input type="radio" name="a2" value="A Giraffe">A Giraffe</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend class="question"><u>3. Why do Roosters Crow? (select multiple)</u></legend>
+                            <label><input type="checkbox" name="a3" value="Show dominance">Show dominance</label>
+                            <label><input type="checkbox" name="a3" value="For Fun">For Fun</label>
+                            <label><input type="checkbox" name="a3" value="Signal morning">Signal morning</label>
+                            <label><input type="checkbox" name="a3" value="IDK...">IDK...</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend class="question"><u>4. Can chickens fly?</u></legend>
+                            <label><input type="radio" name="a4" value="No">No</label>
+                            <label><input type="radio" name="a4" value="Short distances">Short distances</label>
+                            <label><input type="radio" name="a4" value="IDK">IDK</label>
+                            <label><input type="radio" name="a4" value="Yes!">Yes!</label>
+                        </fieldset>
+                    </form>
+                    <button id="submitbtn">Submit</button>
+                    <p id="scorebox">Your score goes here!</p>
+                </div>
+            </section>
+        </div>
+        <!-- Page 2 -->
+        <div class="page" id="page2">
+            <h2>Chicken Population
+            </h2>
+            <p>So, about Singapore's chickens... why are there so many roaming around Singapore lately? While we
+                don't
+                usually think of chickens in an urban city, they're actually more common than you'd expect. Whether
+                they're waking people up with a morning crow or just pecking around under a tree, chickens have
+                quietly
+                become part of Singapore's everyday landscape!</p>
+            <div class="container">
+                <div class="image">
+                    <iframe width="450" height="315" src="https://www.youtube.com/embed/aRNd8L0h-_A?si=TxX4DToOIHkrqsrt"
+                        title="YouTube video player" allowfullscreen></iframe>
+                </div>
+                <div class="text">
+                    <h3 class="intro">Report</h3>
+                    <p>The issue of wild chickens came to the fore in 2017, when the Agri-Food and Veterinary
+                        Authority
+                        of Singapore (AVA) revealed that it put down 24 chickens that were wandering around Thomson
+                        View
+                        and Blocks 452 to 454 Sin Ming Avenue. There were about 20 complaints from residents there,
+                        mainly about noise. <a
+                            href="https://www.channelnewsasia.com/singapore/wild-chickens-singapore-population-feathered-neighbours-focus-3027986"
+                            target="_blank">[CNA]</a></p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="text">
+                    <h3 class="intro">Complaints</h3>
+                    <p>Turns out, Singaporeans are, in fact, <u>NOT</u> affected by the sound of the roosters
+                        crowing
+                        and chickens running amok. "We don't find them a nuisance," said housewife Eline Peh, who
+                        moved
+                        into the area late last year. "In fact, we will miss them if they are gone." Singaporeans
+                        think
+                        that the chickens give Singapore its identity, and enriches wildlife.</p>
+                </div>
+                <div class="image">
+                    <img src="images/pic3.jpeg" alt="img1" title="A rooster" class="pic">
+                </div>
+            </div>
+            <div class="container">
+                <div class="image">
+                    <div class="audio-btns">
+                        <button class="audio-btn" id="audiobtn1"><img src="images/audio.png" alt="audio_icon"></button>
+                        <button class="audio-btn" id="audiobtn2"><img src="images/audio.png" alt="audio_icon"></button>
+                        <button class="audio-btn" id="audiobtn3"><img src="images/audio.png" alt="audio_icon"></button>
+                        <button class="audio-btn" id="audiobtn4"><img src="images/audio.png" alt="audio_icon"></button>
+                    </div>
+                </div>
+                <div class="text">
+                    <h2>They are everywhere...<br>Recognise their sound!</h2>
+                    <ol>
+                        <li>This is the <b>clucking</b> sound of a mother hen. Usually, they make clucking noises to
+                            communicate with other hens and roosters within their range. It is a happy, friendly
+                            cluck.
+                        </li>
+
+                        <li>The second sound is made by a baby chick. Baby chicks tend to produce high-pitched and
+                            surprisingly loud sounds. Instead of clucking like an adult chicken, they <b>chirp</b>.
+                        </li>
+
+                        <li>Thirdly, we have the sound of an <b>angry hen</b>. Usually, hens are peaceful. However,
+                            they
+                            become aggressive when other animals steal their eggs or pose any danger to them. They
+                            will
+                            get defensive and try to scare the threat away.</li>
+
+                        <li>Lastly, this sound is made by a rooster. Roosters usually <b>crow</b> at dawn to signal
+                            the
+                            start of a new day. While they are known for crowing in the morning, they also do it to
+                            mark
+                            their territory and show off their dominance!</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!-- Page 3 -->
+        <div class="page" id="page3">
+            <h2>Fun Facts!
+            </h2>
+            <p>What makes chickens, one of the most basic and common animal that you have probably heard, so
+                special?
+                Well, they are actually more capable than you think! At first, they might seem like the regular
+                typical
+                garden bird. But after knowing these fun facts, it will make you reconsider!</p>
+            <div class="container">
+                <div class="text">
+                    <a href="https://www.four-paws.org/campaigns-topics/topics/farm-animals/10-facts-about-chickens"
+                        target="_blank">
+                        <h3 class="intro" title="Go to four-paws.org"><u id="facts">List of facts:</u></h3>
+                    </a>
+                    <ol>
+                        <li>Chickens love to play, run, skip and flap their wings. They also enjoy sunbathing.</li>
+                        <li>Hens teach sounds to their chicks while they are still in the egg.</li>
+                        <li>Chickens have a profound memory and are able to distinguish between more than 100 faces
+                            of
+                            their species. They can also recognise people.</li>
+                        <li>Chickens are able to distinguish colours. They also see ultraviolet light and iridescent
+                            hues. Their world looks more colourful than ours.</li>
+                        <li>The cognitive skills of chickens are similarly high to those of a dog or cat.</li>
+                    </ol>
+                </div>
+                <div class="image">
+                    <img src="images/pic8.jpeg" alt="img7" title="Chicken family" class="pic">
+                </div>
+            </div>
+            <h2>Click on button for info!!!</h2>
+            <div id="interactive">
+                <div id="interactive-img">
+                    <button class="imagebutton" id="imgbtn1">Chicken</button>
+                    <button class="imagebutton" id="imgbtn2">Chick</button>
+                    <button class="imagebutton" id="imgbtn3">Egg</button>
+                    <img src="images/chicken_cycle.jpg" alt="life_cycle_pic" title="life of chicken!">
+                </div>
+                <div class="interactive-text">
+                    <h2>Info!!</h2>
+                    <hr>
+                    <div>
+                        <p>Info goes here!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="speed-container">
+                <h2>Speed of chickens</h2>
+                <p id="how-fast">How fast can chickens run?</p>
+                <div class="speedbars">
+                    <div class="speedbar speedone">Cheetah</div>
+                    <div class="speedbar speedtwo">Human</div>
+                    <div class="speedbar speedthree">Chicken</div>
+                </div>
+            </div>
+            <button id="check-btn">Check!</button>
+            <div class="sprite-box">
+                <h2>Make your own Chicken Army!</h2>
+                <p>Click Add button to add chicken, and Remove button to remove chicken.</p>
+                <button id="addbtn">Add</button>
+                <button id="removebtn">Remove</button>
+                <button id="reset-chicken">Reset</button>
+            </div>
+        </div>
+        <!-- Page 4 -->
+        <div class="page" id="page4">
+            <h2 id="lets-play">Let's Play, FlappyChick!</h2>
+            <div id="scoretime">
+                <p id="showscore">Score: 0</p>
+                <p id="showtime">Time: 0</p>
+            </div>
+            <div id="game">
+                <div id="ball"></div>
+                <div id="block"></div>
+                <div id="hole"></div>
+            </div>
+            <button id="jumpbtn">Flap!</button>
+            <button id="startbtn">Start!</button>
+            <button id="reset-game">Reset</button>
+            <div class="container">
+                <div class="text">
+                    <h3 class="intro"><u>Can chickens fly?</u></h3>
+                    <p>One of the most frequently asked questions is: Can chickens actually fly?
+                        The answer is yes — but only for short distances!
+                        You might wonder how they manage to fly at all, especially since their bodies are much
+                        heavier
+                        than those of other birds, like the common mynah or the dove.
+                        This is because chickens have a unique wing structure that allows them to glide for a short
+                        while. Their wings and bodies are covered in many feathers, which aid them in brief flight.
+                        But feathers aren't just for flying — they also serve an important purpose in incubating
+                        eggs.
+                        Mother hens use their feathers to keep their eggs warm and safe.
+                        And that's just one of the reasons why chickens are so cool.</p>
+                </div>
+            </div>
+            <div class="container">
+                <h2>Feather layers</h2>
+            </div>
+            <div class="flexcontain">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <h2>Semiplumes</h2>
+                        </div>
+                        <div class="card-back">
+                            <p>emiplume feathers are found hidden between contour feathers that cover the body, and act
+                                as extra insulation for the bird to keep them warm. They also help maintain the smooth
+                                and streamlined appearance of the bird. They have a shaft like contour feathers, but not
+                                the hooks that hold the barbs together, so they get the soft appearance of down
+                                feathers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <h2>Filoplumes</h2>
+                        </div>
+                        <div class="card-back">
+                            <p>These are situated at the base of each contour feather and are stiff and hair-like in
+                                appearance. Filoplumes lack specific feather muscles, but are supplied with
+                                nerve-endings that react to help keep the contour feathers in position.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <h2>Secondaries</h2>
+                        </div>
+                        <div class="card-back">
+                            <p>Secondaries are the inner flight feathers, positioned behind the primaries and grow out
+                                from the forearm area of the wing. These feathers provide lift in both the soaring and
+                                flapping functions of flying.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- photo credits -->
+            <div class="container">
+                <div class="image">
+                    <img src="images/pic2.jpg" alt="pic2" title="rooster stare...">
+                </div>
+                <div class="text">
+                    <h3 class="intro">Photography</h3>
+                    <p>All the photographs were taken by me! There are a lot of chickens around the central areas of
+                        Singapore — especially near Outram Park, Queenstown, and Redhill. Have you noticed the big
+                        field just outside NYP? There are chickens there too!
+                        This really shows that Singapore lives up to its name as a <b>"Garden City."</b> It's
+                        amazing how both animals and humans can coexist so closely with nature. That's the beauty of
+                        mother nature.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-div">
+            <img src="images/qr_code.jpg" alt="qr" title="to github!" id="qr">
+            <p>&#174; 01_Mavelle_252019X</p>
+        </div>
+    </footer>
+</body>
+
+</html>
